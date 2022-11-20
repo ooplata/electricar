@@ -1,0 +1,37 @@
+:root {
+	--background: #ECF1F2;
+	--background-elevated: #E7F0F2;
+
+	--foreground: #191A1A;
+	--secondary: #191A1A99;
+	--divider: #00000033;
+
+	--accent: #59CBE8;
+	--electric-yellow: #000000;
+}
+
+[data-dark-mode] {
+	--background: #222728;
+	--background-elevated: #242D2F;
+
+	--foreground: #FFFFFF;
+	--secondary: #FFFFFF99;
+	--divider: #FFFFFF33;
+
+	--accent: #59CBE8;
+	--electric-yellow: #FFEF00;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #222728;
+		--background-elevated: #242D2F;
+
+		--foreground: #FFFFFF;
+		--secondary: #FFFFFF99;
+		--divider: #FFFFFF33;
+
+		--accent: #59CBE8;
+		--electric-yellow: #FFEF00;
+	}
+}

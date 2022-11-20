@@ -1,0 +1,23 @@
+h1 {
+	color: var(--foreground);
+	margin: 0;
+}
+
+h2 {
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 8px 0 4px 0;
+}
+
+figcaption {
+	color: var(--secondary);
+	padding: 2px 0 1em 0;
+}
+
+.accent {
+	color: var(--accent);
+}
+
+.yellow {
+	color: var(--electric-yellow);
+}
